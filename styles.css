@@ -139,6 +139,10 @@ section.sports {
 
 }
 
+img.tablecell {
+    height: 300px;
+}
+
 
 .table_grid {
     max-width: 1200px; /* Limit the maximum width */
@@ -319,7 +323,10 @@ h4{
         grid-template-columns: 1fr; /* Switch to a single column layout */
 
     }
-
+    img.tablecell {
+        height: 100px;
+    }
+    
     .col1,
     .col2 {
       width: 100%;
@@ -330,5 +337,16 @@ h4{
         justify-content: center; /* Center the videos horizontally */
     }
     
+  }
+  /* Add a media query for mobile devices with a maximum width of 768px */
+@media (max-width: 768px) {
+    td {
+      display: block; /* Make table cells behave as block elements */
+      width: 100%; /* Set the width to 100% for mobile devices */
+    }
+    
+    td img {
+      width: 100%; /* Make images inside table cells 100% width */
+    }
   }
   
