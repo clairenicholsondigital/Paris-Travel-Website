@@ -139,6 +139,28 @@ section.sports {
 
 }
 
+
+.table_grid {
+    max-width: 1200px; /* Limit the maximum width */
+    margin: 0 auto; /* Center-align the grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .table_col {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+td {
+    text-align:center;
+}
+td img{
+    filter: drop-shadow(8px 8px 10px rgba(117, 19, 93, 0.73));
+}
+
 .col1 h3 {
     color:rgba(117, 19, 93, 0.73)!important;
 }
