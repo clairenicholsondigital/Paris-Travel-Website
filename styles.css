@@ -1,8 +1,311 @@
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/Paris2024-Variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size:96px;
+  font-family: 'CustomFont', sans-serif;
+    font-size:100px;
+    color:white;
+    text-align:center;
 }
 h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CustomFont', sans-serif;
     font-size:24px;
+    color:white;
+    text-align:center;
+
 }
+section h3 {
+    color: rgba(117, 19, 93, 0.73);
+    font-size: 35px;
+}
+
+.threecolgrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    grid-gap:20px;
+
+}
+.footer_cols {
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    grid-gap:20px;
+}
+.footer_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+.threecol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+.header {
+    background-image:linear-gradient(to bottom,rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)),url('https://medias.paris2024.org/uploads/2023/07/PARIS24_CELEBRATION_VF.jpg?x-oss-process=image/resize,w_2048,h_1152,m_lfit/format,jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding:40px;
+}
+.footer_col h4 {
+    color: white;
+}
+
+footer{
+    background-image:linear-gradient(to bottom, rgba(117, 19, 93, 0.73), rgba(117, 19, 93, 0.73)),url('https://cdn4.premiumread.com/?url=https://gulf-times.com/gulftimes/uploads/images/2023/05/30/36467.jpg&q=100&f=jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding:40px;
+    color:white;
+    font-family:'Open-sans',sans-serif;
+}
+
+section p {
+    font-family:"Open-sans",sans-serif;   
+    font-size:1em;   
+
+    line-height:1.5em; 
+    text-align: center;
+}
+
+.twocolumns {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.twocolumns_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch; /* Make both columns stretch to the same height */
+    grid-gap: 20px;
+}
+
+section.sport_header{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+}
+section {
+    padding:50px;
+}
+
+section.sports {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+}
+.col1,
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.col1 iframe,
+.col2 iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.greysection {
+    padding-top:50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+}
+
+.greysection_container {
+    background-color:rgba(239, 239, 240,0.5);
+    margin: auto;
+    display: flex;
+
+}
+
+.col1 h3 {
+    color:rgba(117, 19, 93, 0.73)!important;
+}
+section h3 {
+    color:rgba(117, 19, 93, 0.73);
+
+}
+.three-col-text {
+    flex-grow: 1;
+    padding: 10px;
+    border-width: 2px;
+    border-color: rgba(239, 239, 240, 0.4);
+    border: solid;
+    position: relative;
+    min-height:500px;
+    padding-bottom:20px;
+}
+
+.three-col-text:hover{
+    background-color: rgba(239, 239, 240, 0.4);
+    cursor:pointer;
+}
+
+h6 {
+    color:grey;
+    text-transform: capitalize;
+    font-family: 'CustomFont', sans-serif;
+    font-size:16px!important;
+    margin-bottom:0px;
+    letter-spacing: 3px;
+}
+.threecol p {
+    font-family:"Open-sans",sans-serif;    
+    line-height:1.5em; 
+    font-size:1em;   
+
+
+}
+
+.header h1 {
+    font-size: 60px;
+}
+.col1 img {
+    width:80%;
+}
+.col1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.col2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.col2 p {
+    font-family:"Open-sans",sans-serif; 
+    font-size:1em;   
+    line-height:1.5em; 
+
+}
+
+h4{
+    font-size:22px;
+    color:rgba(117, 19, 93, 0.73);
+    font-family: 'CustomFont', sans-serif;
+
+}
+.head{
+    color:rgba(117, 19, 93, 0.73);
+}
+
+.general_button {
+    background-color:rgba(117, 19, 93, 0.73);
+    color:white;
+    border:none;
+    font-size:24px;
+    font-family: 'CustomFont', sans-serif;
+    
+}
+.grid_button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    font-family: 'CustomFont', sans-serif;
+    font-size:20px;
+    width:80%;
+    background-color:rgba(117, 19, 93, 0.73);
+    color:white;
+}
+.container_videos {
+    max-width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+  }
+  .embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding:20px;
+  }
+
+  footer a {
+    color:white;
+  }
+@media (max-width: 768px) {
+    .threecolgrid {
+        grid-template-columns: 1fr; /* Switch to a single column layout */
+    }
+}
+/* Existing CSS rules */
+
+/* Add a media query for non-laptop devices */
+@media (max-width: 1024px) {
+    section,
+    footer {
+      width: 100%;
+      padding: 20px; /* Adjust the padding as needed */
+      box-sizing: border-box; /* Maintain the padding within the specified width */
+      text-align: center; /* Center the content within the sections */
+    }
+  
+    /* If you want to keep the existing padding for the header */
+    .header {
+      padding: 40px;
+    }
+  
+    /* If you want to keep the existing padding for the grey section */
+    .greysection {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    /* If you want to keep the existing padding for the sports section */
+    .sports {
+      padding: 50px 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer_cols {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+      grid-gap:20px;    }
+    
+    /* Adjust the styles for individual footer columns */
+    .footer_col {
+      width: 100%; /* Take up the full width */
+      padding: 20px; /* Add spacing */
+    }
+
+    .twocolumns{
+        grid-template-columns: 1fr; /* Switch to a single column layout */
+
+    }
+
+    .col1,
+    .col2 {
+      width: 100%;
+      padding: 20px;
+    }
+    .container_videos{
+       max-width:100%; flex-wrap: wrap; /* Allow videos to wrap onto a new line */
+        justify-content: center; /* Center the videos horizontally */
+    }
+    
+  }
+  
