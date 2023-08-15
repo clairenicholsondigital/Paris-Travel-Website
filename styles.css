@@ -135,6 +135,7 @@ section.sports {
     background-color:rgba(239, 239, 240,0.5);
     margin: auto;
     display: flex;
+    padding:0px;
 
 }
 
